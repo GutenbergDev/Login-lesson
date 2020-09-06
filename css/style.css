@@ -171,6 +171,19 @@ input {
     text-decoration: underline;
 }
 
+@media (max-width: 768px){
+    .container {
+        margin-top: 20px;
+    }
+    .ns {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin: auto;
+        margin-top: 10px;
+    }
+}
+
 @media (max-width: 420px){
 
     .container {
